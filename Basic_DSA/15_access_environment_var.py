@@ -21,7 +21,7 @@ def access_environment_variables(variable_name):
     variable_name (str): The name of the environment variable to access.
 
     Returns:
-    None
+    path to that variable
     """
     variable_value = os.getenv(variable_name)
     return variable_value
