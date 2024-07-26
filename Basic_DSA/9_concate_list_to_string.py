@@ -10,7 +10,7 @@
 
 '''
 
-def concate(l):
+def concate(list):
 
     """
 
@@ -25,15 +25,15 @@ def concate(l):
 
     """
     
-    s = ''  # Initialize an empty string
-    for i in l:
-        s += str(i)  # Convert each element to string and add it to the result
-    return s
+    string = ''  # Initialize an empty string
+    for element in list:
+        string += str(element)  # Convert each element to string and add it to the result
+    return string
 
 def main():
 
-    l = ['S', 'h', 'i', 'v']  # Sample list of characters
-    print("Concatenated string is", concate(l))  # Call the concate function and print the result
+    list_input = ['S', 'h', 'i', 'v']  # Sample list of characters
+    print("Concatenated string is", concate(list_input))  # Call the concate function and print the result
 
 if __name__ == '__main__':
     main()  # Execute the main function if the script is run directly
