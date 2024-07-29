@@ -32,7 +32,6 @@ def list_difference(list1,list2):
         # If the number is not already in the unique list, append it
         if number not in list1:
             difference.append(number)
-    difference=set(difference)
     return list(difference)  # Return the list with duplicates removed
 
 def main():
